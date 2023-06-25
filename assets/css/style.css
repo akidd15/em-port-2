@@ -1,0 +1,70 @@
+@media screen and (max-width:768px) {
+    header,
+    main 
+    flex-direction:column; 
+    }
+
+body{
+    background-color: #DDD0C8;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #323232;
+    font-size: 50px;
+    font-family:optima;
+    text-align-last: center;
+    height: 80px;
+}
+
+nav{
+    font-size: 25px;
+    background-color:rgb(193, 179, 136);
+    font-family:optima;  
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly; 
+} 
+
+#about,
+#contact,
+#my-work{
+    height: 800px;
+    font-family: optima;
+}
+section p{
+    font-size: 30px;
+    font-family: optima;
+    display: flex;
+    justify-content: center;
+}
+img{
+    display:block;
+    align-items: center;
+
+}
+.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+.img-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:space-around;
+}
+main p{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: optima;
+}
+.img-2:hover {
+    transform: scale(1.1);
+}
